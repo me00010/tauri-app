@@ -41,4 +41,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Debian Bundle
-          path: https://github.com/me00010/tauri-app/target/release/bundle/deb/tauri_arm64.deb
+          path: ${{ github.workspace }}/tauri_arm64.deb
